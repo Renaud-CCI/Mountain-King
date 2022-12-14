@@ -1,0 +1,79 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Rokkitt';
+}
+
+h1 span{
+    font-size: 2em;
+}
+
+p{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url("../images/bg_header.jpg");
+    background-size:cover;
+    background-position: top;
+    height: 750px;
+
+}
+
+#logo{
+    height: 60px;
+}
+
+.btn{
+    border-radius: 0%;
+}
+
+.features {
+    font-size: 350%;
+}
+
+#about{
+    background-image: url("../images/bg_nuage.jpg");
+    background-size: 100% 140%;
+    background-position: center;
+    /* height: 500px; */
+}
+
+#history{
+    background-image: url("../images/bg_appareil_photo.jpg");
+    background-size: 100% 160%;
+    background-position: center;
+    /* height: 500px; */
+}
+
+#contact{
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+#contact img{
+    position:absolute;
+    z-index: -10;
+    width: 250%;
+    filter:grayscale(50%);
+    filter: brightness(50%);
+}
+
+#contact p{
+    z-index: 10;
+}
+
+.custom-mail{
+    border-radius: 0%;
+}
+
+footer{
+    background-color: rgb(36,52,60);
+}
+
+footer i{
+    font-size: 200%;
+}
+
+
+
+
